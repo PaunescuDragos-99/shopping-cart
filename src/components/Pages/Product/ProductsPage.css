@@ -1,0 +1,24 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  
+  .product-container .price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .product-container button:hover {
+    background-color: #0056b3;
+  }

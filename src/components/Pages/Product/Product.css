@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: #555;
+    border: solid;
+    width: 300px;
+    height: 400px;
+    text-overflow: 0;
+}
+
+.description {
+    overflow: auto;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: .6rem;
+}
+
+.title {
+    font-size: 1.3rem;
+}
